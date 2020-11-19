@@ -11,7 +11,6 @@
 
 .list h1 {
   padding: 20px 5px;
-  border-bottom: solid 1px whitesmoke;
 }
 
 .form {
@@ -22,4 +21,20 @@
 .form input,
 button {
   height: 30px;
+}
+
+.form button {
+  background-color: orange;
+  border: 1px solid rgb(138, 90, 0);
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10%;
+}
+
+.products__list {
+  border-bottom: 1px solid orange;
+  padding: 10px;
 }

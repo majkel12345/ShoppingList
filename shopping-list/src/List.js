@@ -2,9 +2,8 @@ import React, { useState } from "react";
 import "./List.css";
 
 const List = () => {
-  const data = [{ name: "michał" }];
   const [text, setText] = useState("");
-  const [ob, setOb] = useState(data);
+  const [ob, setOb] = useState([]);
 
   const handleOnChange = (e) => {
     setText(e.target.value);
@@ -20,9 +19,6 @@ const List = () => {
     setText("");
   };
 
-  console.log(typeof ob);
-  console.log(ob);
-
   return (
     <div className="list">
       <h1>Shopping List</h1>
@@ -37,8 +33,12 @@ const List = () => {
         <button type="submit">ADD TO CART</button>
       </form>
       <div className="products">
-        {ob.map((name) => {
-          return name.name;
+        {ob.map((obj) => {
+          return (
+            <div className="products__list">
+              <h4>{obj.name}</h4>
+            </div>
+          );
         })}
       </div>
     </div>
