@@ -1,0 +1,25 @@
+.list {
+  width: 100%;
+  max-width: 600px;
+  background-color: white;
+  margin: 50px 10%;
+  border-radius: 8px;
+  /* display: flex;
+  align-items: center; */
+  text-align: center;
+}
+
+.list h1 {
+  padding: 20px 5px;
+  border-bottom: solid 1px whitesmoke;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10%;
+}
+.form input,
+button {
+  height: 30px;
+}
