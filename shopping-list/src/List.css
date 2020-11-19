@@ -2,11 +2,12 @@
   width: 100%;
   max-width: 600px;
   background-color: white;
-  margin: 50px 10%;
+  margin: 0 10%;
   border-radius: 8px;
   /* display: flex;
   align-items: center; */
   text-align: center;
+  height: 100vh;
 }
 
 .list h1 {
@@ -37,4 +38,8 @@ button {
 .products__list {
   border-bottom: 1px solid orange;
   padding: 10px;
+}
+
+.products__list h4 {
+  max-width: 600px;
 }

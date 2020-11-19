@@ -1,0 +1,15 @@
+.cart {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cart__length {
+  display: flex;
+  align-items: center;
+}
+
+.cart__length h2 {
+  margin-right: 10px;
+}

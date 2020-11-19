@@ -3,8 +3,7 @@
 }
 
 .App {
-  display: flex;
-  justify-content: center;
-  height: 100vh;
+  display: grid;
+  place-items: center;
   background-color: whitesmoke;
 }
